@@ -25,29 +25,9 @@ Spring Boot 2.5.x or higher
 Maven for dependency management
 Spring Web for REST API creation
 Project Setup
-To run this project locally, follow these steps:
 
-Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/your-username/training-list-api.git
-cd training-list-api
-Build the project: Ensure you have Maven installed, then build the project using the following command:
 
-bash
-Copy code
-mvn clean install
-Run the Spring Boot application: Start the Spring Boot application using:
-
-bash
-Copy code
-mvn spring-boot:run
-Access the API: Once the application is running, you can access the API at:
-
-bash
-Copy code
-http://localhost:8080/api/trainings/list
 Usage
 After running the application, you can fetch the list of trainings by making a GET request to the /api/trainings/list endpoint.
 
